@@ -283,7 +283,7 @@ class _InsertState extends State<Insert> {
 
     // Basic validation
     if (nameController.text.isEmpty || 
-        descriptionController.text.isEmpty || 
+        
         imageController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Please enter name, description, and image URL')),
